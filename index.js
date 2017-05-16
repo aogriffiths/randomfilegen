@@ -6,8 +6,8 @@ var fs = require('fs');
  * depth = number subfolder deep to go
  * subdirs = number of subfolders to create in each parent
  * files = number of files to create in each dir
- * maxsize = max file size in kb
- * minsize = min file size in kb
+ * maxsize = max file size in kb TODO
+ * minsize = min file size in kb TODO
  */
 
 function generatein(parent, depth, subdirs, files, callback){
